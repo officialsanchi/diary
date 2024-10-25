@@ -1,4 +1,8 @@
 package Data.repository;
 
-public interface DiaryReository {
+import Data.model.Diary;
+
+public interface DiaryRepository {
+    void addDiary(Diary diary);
+    long diaryCount();
 }

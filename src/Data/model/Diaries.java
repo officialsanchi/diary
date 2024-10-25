@@ -1,4 +1,7 @@
 package Data.model;
 
-public class Daries {
+import java.util.ArrayList;
+
+public class Diaries {
+    ArrayList<Diary> arrayList = new ArrayList<>();
 }

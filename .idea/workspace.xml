@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a19f4fbf-41d2-471b-9925-b8ead2f94382" name="Changes" comment="" />
+    <list default="true" id="a19f4fbf-41d2-471b-9925-b8ead2f94382" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Service/DiaryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/DiaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DiaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/diary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/model/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Diaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/model/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Diary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/model/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiariesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiariesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiariesRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiariesRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiaryRepositoryImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2nuChDBLRmny6jxdwQ3FClsjWin" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -18,12 +45,47 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.DiaryTest.testThatDiaryIsEmpty.executor": "Run",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DiaryTest.testThatDiaryIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="testThatDiaryIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DiaryTest.testThatDiaryIsEmpty" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -40,6 +102,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729813695781</updated>
+      <workItem from="1729813971772" duration="57000" />
+      <workItem from="1729814376511" duration="426000" />
+      <workItem from="1729814952966" duration="380000" />
+      <workItem from="1729816798263" duration="360000" />
+      <workItem from="1729817428578" duration="1717000" />
+      <workItem from="1729819206952" duration="80000" />
+      <workItem from="1729819934731" duration="2930000" />
+      <workItem from="1729822934285" duration="31000" />
+      <workItem from="1729823964026" duration="331000" />
+      <workItem from="1729824334337" duration="34000" />
+      <workItem from="1729836846090" duration="2192000" />
     </task>
     <servers />
   </component>
