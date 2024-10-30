@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19f4fbf-41d2-471b-9925-b8ead2f94382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/DiaryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/DiaryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DiaryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/EntryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/EntryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/EntryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/diary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/model/Diaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Diaries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/model/Diaries.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/model/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Diary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/model/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/repository/DiariesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiariesRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/repository/DiariesRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiariesRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiaryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiaryRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/EntryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/EntryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data/repository/EntryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/EntryRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/DiaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/DiaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/DiaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,38 +47,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.DiaryTest.testThatDiaryIsEmpty.executor": "Run",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.DiaryTest.createEntryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryEntriesCreationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryIsLocked.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryIsLockedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryIsUnLockedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.testThatDiaryCanBeCreated.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.testThatDiaryCanBeCreatedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.testThatDiaryIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Service" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="DiaryTest.testThatDiaryIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DiaryTest.createEntryTest">
+    <configuration name="DiaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DiaryTest" />
-      <option name="METHOD_NAME" value="testThatDiaryIsEmpty" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryTest.createEntryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="createEntryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryTest.diaryEntriesCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="diaryEntriesCreationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryTest.diaryIsLockedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="diaryIsLockedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiaryTest.testThatDiaryCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="diary" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="testThatDiaryCanBeCreatedTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,7 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DiaryTest.testThatDiaryIsEmpty" />
+        <item itemvalue="JUnit.DiaryTest.createEntryTest" />
+        <item itemvalue="JUnit.DiaryTest" />
+        <item itemvalue="JUnit.DiaryTest.diaryEntriesCreationTest" />
+        <item itemvalue="JUnit.DiaryTest.testThatDiaryCanBeCreatedTest" />
+        <item itemvalue="JUnit.DiaryTest.diaryIsLockedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +167,20 @@
       <workItem from="1729822934285" duration="31000" />
       <workItem from="1729823964026" duration="331000" />
       <workItem from="1729824334337" duration="34000" />
-      <workItem from="1729836846090" duration="2192000" />
+      <workItem from="1729836846090" duration="6584000" />
+      <workItem from="1729858629032" duration="2088000" />
+      <workItem from="1729931164424" duration="2228000" />
+      <workItem from="1729937510339" duration="1900000" />
+      <workItem from="1729974846761" duration="1244000" />
+      <workItem from="1730026349353" duration="1729000" />
+      <workItem from="1730076997934" duration="3630000" />
+      <workItem from="1730097171440" duration="1412000" />
+      <workItem from="1730113915849" duration="68000" />
+      <workItem from="1730114373942" duration="14000" />
+      <workItem from="1730135245746" duration="1619000" />
+      <workItem from="1730136947673" duration="19826000" />
+      <workItem from="1730219020146" duration="28000" />
+      <workItem from="1730231492770" duration="2642000" />
     </task>
     <servers />
   </component>

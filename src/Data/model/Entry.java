@@ -8,6 +8,15 @@ public class Entry {
     private  String body;
     private final LocalDate today = LocalDate.now();
 
+    public Entry(int id, String title, String body) {
+        this.id = id;
+        this.title = title;
+        this.body = body;
+    }
+    public Entry(){
+
+    }
+
     public int getId() {
         return id;
     }
@@ -36,11 +45,7 @@ public class Entry {
         return today;
     }
 
-    public Entry(int id, String title, String body) {
-        this.id = id;
-        this.title = title;
-        this.body = body;
-    }
+
 
 
 }
