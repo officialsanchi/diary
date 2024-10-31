@@ -5,16 +5,22 @@ import Data.model.Diary;
 public interface DiaryService {
 
     Diary createDiary(String username, String password);
+
     long diaryCount();
 
-    void createEntry(String title, String body);
+    boolean isLocked(int id);
 
-    boolean locked(String id);
-    void unLocked(String id);
-    boolean isLocked(String id);
+    void unLocked(int id);
+
+    void lockedDiary(int id);
 
     long deleteEntry(int id);
 
-
     void findEntryById();
+
+    void removeEntry(String userName, String entryId);
+
+    Diary getId(int id);
+
+    Diary save(Diary diary);
 }

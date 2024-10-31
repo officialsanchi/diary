@@ -5,22 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a19f4fbf-41d2-471b-9925-b8ead2f94382" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/EntryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/EntryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/EntryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DiariesRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DiaryServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/model/Diaries.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/model/Diary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Diary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/model/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/model/Entry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/repository/DiariesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiariesRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/repository/DiariesRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/DiariesRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Data/repository/DiaryRepositoryImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/repository/EntryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/EntryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Data/repository/EntryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data/repository/EntryRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/DiaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/DiaryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Service/DiaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/DiaryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/EntryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/EntryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/EntryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/EntryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DiaryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/EntryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/EntryRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +48,32 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.DiariesRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiariesRepositoryTest.testThatDiaryIsEmptyThatCreation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiariesRepositoryTest.testThatICanCreateADiary.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiariesRepositoryTest.testThatICanDeleteDiary.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiariesRepositoryTest.testThatIHaveTwoDiaries.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiariesRepositoryTest.testThatYouCanGetADiaryFromRepository.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryServiceTest.testThatDiaryIsLockedOnCreation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryServiceTest.testThatDiaryIsOpenAtCreationAndIsLockedAfterCreation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryServiceTest.testThatDiaryIsOpenOrClosedAtCreation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryServiceTest.testThatWhenDiaryIsLockedThatDiaryCanBeUnlocked.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.createEntryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DiaryTest.diaryEntriesCreationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryEntriesCreationTest.executor&quot;: &quot;Debug&quot;,
     &quot;JUnit.DiaryTest.diaryIsLocked.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.diaryIsLockedTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.diaryIsUnLockedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryLockedTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.diaryUnLockedTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.testThatDiaryCanBeCreated.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.testThatDiaryCanBeCreatedTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.DiaryTest.testThatDiaryIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.testThatEntryIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DiaryTest.unLockDiaryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntryRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EntryRepositoryTest.testThatEntryIsEmptyThatCreation.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
@@ -81,51 +96,50 @@
       <recent name="Service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DiaryTest.createEntryTest">
-    <configuration name="DiaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EntryRepositoryTest.testThatEntryIsEmptyThatCreation">
+    <configuration name="DiariesRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="MAIN_CLASS_NAME" value="DiariesRepositoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.createEntryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryServiceTest.testThatDiaryIsOpenAtCreationAndIsLockedAfterCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
-      <option name="METHOD_NAME" value="createEntryTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryServiceTest" />
+      <option name="METHOD_NAME" value="testThatDiaryIsOpenAtCreationAndIsLockedAfterCreation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.diaryEntriesCreationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryServiceTest.testThatWhenDiaryIsLockedThatDiaryCanBeUnlocked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
-      <option name="METHOD_NAME" value="diaryEntriesCreationTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryServiceTest" />
+      <option name="METHOD_NAME" value="testThatWhenDiaryIsLockedThatDiaryCanBeUnlocked" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.diaryIsLockedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntryRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
-      <option name="METHOD_NAME" value="diaryIsLockedTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="EntryRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiaryTest.testThatDiaryCanBeCreatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntryRepositoryTest.testThatEntryIsEmptyThatCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="diary" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
-      <option name="METHOD_NAME" value="testThatDiaryCanBeCreatedTest" />
+      <option name="MAIN_CLASS_NAME" value="EntryRepositoryTest" />
+      <option name="METHOD_NAME" value="testThatEntryIsEmptyThatCreation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DiaryTest.createEntryTest" />
-        <item itemvalue="JUnit.DiaryTest" />
-        <item itemvalue="JUnit.DiaryTest.diaryEntriesCreationTest" />
-        <item itemvalue="JUnit.DiaryTest.testThatDiaryCanBeCreatedTest" />
-        <item itemvalue="JUnit.DiaryTest.diaryIsLockedTest" />
+        <item itemvalue="JUnit.EntryRepositoryTest.testThatEntryIsEmptyThatCreation" />
+        <item itemvalue="JUnit.EntryRepositoryTest" />
+        <item itemvalue="JUnit.DiariesRepositoryTest" />
+        <item itemvalue="JUnit.DiaryServiceTest.testThatWhenDiaryIsLockedThatDiaryCanBeUnlocked" />
+        <item itemvalue="JUnit.DiaryServiceTest.testThatDiaryIsOpenAtCreationAndIsLockedAfterCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -181,10 +195,27 @@
       <workItem from="1730136947673" duration="19826000" />
       <workItem from="1730219020146" duration="28000" />
       <workItem from="1730231492770" duration="2642000" />
+      <workItem from="1730256870623" duration="7447000" />
+      <workItem from="1730288040131" duration="13972000" />
+      <workItem from="1730305685512" duration="2073000" />
+      <workItem from="1730317780747" duration="6131000" />
+      <workItem from="1730324389819" duration="5164000" />
+      <workItem from="1730394931519" duration="101000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Service/EntryServiceImpl.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

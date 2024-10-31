@@ -3,21 +3,30 @@ package Data.model;
 import java.util.ArrayList;
 
 public class Diary {
+    private int id;
     private String userName;
     private String password;
     private boolean isLocked;
     ArrayList<Entry> entries = new ArrayList<>();
 
 
-    public Diary(String userName, String password) {
+    public Diary(String userName, String password, int id) {
         this.userName = userName;
         this.password = password;
+        this.id = id;
 
 
     }
 
     public Diary(){
 
+    }
+    public  int setId(int id){
+        this.id = id;
+        return id;
+    }
+    public int getId(){
+        return id;
     }
 
     public String getUserName() {
@@ -61,6 +70,4 @@ public class Diary {
        this.isLocked = true;
         return unlocked;
     }
-
-
 }

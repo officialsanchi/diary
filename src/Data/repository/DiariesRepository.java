@@ -4,17 +4,12 @@ import Data.model.Diary;
 
 public interface DiariesRepository {
 
-    Diary createUser(String name, String password);
-    void addDiary(Diary diary);
-    long diaryCount();
+    long count();
 
-    boolean isLocked(String id);
 
-    void unLocked(String id);
+    void delete(int id);
 
-    void Locked(String id);
-
-    void removeEntry(String id, String entryId);
+    Diary getId(int id);
 
     Diary save(Diary diary);
 }

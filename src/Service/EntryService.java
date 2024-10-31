@@ -6,5 +6,7 @@ public interface EntryService {
 
 
     Entry createEntry(String title, String body);
+    long entryIsEmpty();
+
 
 }

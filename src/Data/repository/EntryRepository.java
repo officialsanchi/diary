@@ -4,7 +4,9 @@ import Data.model.Entry;
 
 public interface EntryRepository {
     Entry save(Entry entry);
-    Entry findById(String entryId);
+    Entry findById(int entryId);
+    long count ();
 
-    void deleteById(String entryId);
+    void deleteById(int entryId);
+    long entryIsEmpty(int id);
 }

@@ -13,4 +13,9 @@ public class EntryServiceImpl implements EntryService{
         entry.setTitle(title);
         return entryRepository.save(entry);
     }
+
+    @Override
+    public long entryIsEmpty() {
+        return 0;
+    }
 }
